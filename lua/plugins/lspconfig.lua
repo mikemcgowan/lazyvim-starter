@@ -2,9 +2,6 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      jdtls = {
-        autostart = false,
-      },
       kotlin_language_server = {
         autostart = false,
         settings = { kotlin = { compiler = { jvm = { target = "17" } } } },
