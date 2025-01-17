@@ -8,6 +8,21 @@ return {
       },
       bashls = {},
       lemminx = {},
+      lua_ls = {
+        settings = {
+          Lua = {
+            diagnostics = {
+              globals = {
+                "describe",
+                "it",
+                "before_each",
+                "after_each",
+                "pending",
+              },
+            },
+          },
+        },
+      },
     },
   },
 }
