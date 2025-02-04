@@ -5,6 +5,9 @@
 local opt = vim.opt
 
 opt.listchars = "tab:>-,space:·"
+opt.backup = false
+opt.writebackup = false
+opt.swapfile = false
 
 local g = vim.g
 
