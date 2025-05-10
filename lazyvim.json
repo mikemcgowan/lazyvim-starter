@@ -6,7 +6,6 @@
     "lazyvim.plugins.extras.lang.kotlin",
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.ruby",
-    "lazyvim.plugins.extras.lang.sql",
     "lazyvim.plugins.extras.lang.yaml"
   ],
   "install_version": 7,
